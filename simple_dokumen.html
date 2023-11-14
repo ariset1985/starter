@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+<title>document</title>
+<style>
+h1, p {
+	color:yellow;
+	background-color:blue;
+}
+table {
+	border:1px solid red;
+	text-align:center;
+	
+}
+th {
+	border:1px solid blue
+}
+td {
+	border:1px solid green;
+	color:white;
+	background-color:black;
+	text-align:center;
+}
+</style>
+</head>
+<body>
+<h1>Hello World!</h1>
+<p> This is paragraph</p>
+<table>
+  <caption style="background-color:yellow;border:2px solid red"><strong>Names</strong></caption>
+  <tr style="height:20px">
+	<th>No.</th>
+    <th style="width:80%;">First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+	<td>1</td>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+	<td>2</td>
+    <td>jhon</td>
+    <td>Doe</td>
+    <td>70</td>
+  </tr>
+  </table> 
+   <table>
+  <tr>
+    <th>Firstname</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Lastname</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+  <tr>
+    <th>Age</th>
+    <td>94</td>
+    <td>50</td>
+  </tr>
+   </table>
+   <h2>Colspan</h2>
+   <table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table> 
+<h2>Rowspan</h2>
+ <table>
+ <tr>
+    <th rowspan="3">First Name</th>
+    <td>Jhon</td>
+  </tr>
+  <tr>
+    
+    <td>Smith</td>
+  </tr>
+  <tr>
+    
+    <td>555-1234</td>
+  </tr>
+  <tr>
+	<th>Phone</th>
+    <td>555-8745</td>
+</tr>
+</table>  
+<h2>Cellspacing</h2>
+<p>Change the space between the cells with the border-spacing property.</p>
+
+<table style="width:100%; border-spacing: 30px;">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+</body>
+</html>
